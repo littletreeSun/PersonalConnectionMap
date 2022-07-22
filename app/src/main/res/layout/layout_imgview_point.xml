@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--线布局-->
+    <com.littletree.mypersonalconnectionmap.customview.LineImageView
+        android:id="@+id/lineImageView"
+        android:layout_width="3000dp"
+        android:layout_height="3000dp" />
+
+    <!--圆形头像布局-->
+    <FrameLayout
+        android:id="@+id/layouPoints"
+        android:layout_width="3000dp"
+        android:layout_height="3000dp"
+        android:layout_gravity="center_vertical" />
+</RelativeLayout>

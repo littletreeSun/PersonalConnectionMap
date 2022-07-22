@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请输入第二层个数（限制8个）"
+            android:textColor="@color/color333"
+            android:textSize="18sp"></TextView>
+
+        <EditText
+            android:id="@+id/et_secondnum"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="#666666"
+            android:textColor="@color/color333"
+            android:inputType="number"
+            android:background="@null"
+            android:text="5"
+            android:textSize="18sp"
+            android:drawableBottom="@drawable/line"
+            android:gravity="center"
+            android:padding="10dp"
+            ></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请输入第三层个数(限制1000个)"
+            android:textColor="@color/color333"
+            android:textSize="18sp"></TextView>
+
+        <EditText
+            android:id="@+id/et_thirdnum"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="#666666"
+            android:inputType="number"
+            android:textColor="@color/color333"
+            android:background="@null"
+            android:text="20"
+            android:textSize="18sp"
+            android:drawableBottom="@drawable/line"
+            android:gravity="center"
+            android:padding="10dp"
+            ></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="扩散角度(限制150)"
+            android:textColor="@color/color333"
+            android:textSize="18sp"></TextView>
+
+        <EditText
+            android:id="@+id/et_anglenum"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="#666666"
+            android:inputType="number"
+            android:textColor="@color/color333"
+            android:background="@null"
+            android:text="120"
+            android:textSize="18sp"
+            android:drawableBottom="@drawable/line"
+            android:gravity="center"
+            android:padding="10dp"
+            ></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第一层头像直径(限制180)"
+            android:textColor="@color/color333"
+            android:textSize="18sp"></TextView>
+
+        <EditText
+            android:id="@+id/et_firstAvatarDiameter"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="#666666"
+            android:inputType="number"
+            android:textColor="@color/color333"
+            android:background="@null"
+            android:text="85"
+            android:textSize="18sp"
+            android:drawableBottom="@drawable/line"
+            android:gravity="center"
+            android:padding="10dp"
+            ></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第二层头像直径(限制100)"
+            android:textColor="@color/color333"
+            android:textSize="18sp"></TextView>
+
+        <EditText
+            android:id="@+id/et_secondAvatarDiameter"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="#666666"
+            android:inputType="number"
+            android:textColor="@color/color333"
+            android:background="@null"
+            android:text="50"
+            android:textSize="18sp"
+            android:drawableBottom="@drawable/line"
+            android:gravity="center"
+            android:padding="10dp"
+            ></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第三层头像直径(限制60)"
+            android:textColor="@color/color333"
+            android:textSize="18sp"></TextView>
+
+        <EditText
+            android:id="@+id/et_thirdAvatarDiameter"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="#666666"
+            android:inputType="number"
+            android:textColor="@color/color333"
+            android:background="@null"
+            android:text="30"
+            android:textSize="18sp"
+            android:drawableBottom="@drawable/line"
+            android:gravity="center"
+            android:padding="10dp"
+            ></EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_commit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="生成人脉图" />
+</LinearLayout>

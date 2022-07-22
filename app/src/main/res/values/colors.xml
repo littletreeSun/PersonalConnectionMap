@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color333">#FF333333</color>
+
+    <color name="relationship_line">#adadad</color>
+
+    <color name="relationship_youhuijuan">#ff4800</color>
+    <color name="relationship_youhuijuan_back">#ffece5</color>
+    <color name="relationship_goods">#ed8745</color>
+    <color name="relationship_goods_back">#fdf8ec</color>
+    <color name="relationship_xuanchuance">#41b0d3</color>
+    <color name="relationship_xuanchuance_back">#ecf7fb</color>
+    <color name="relationship_card">#4191ff</color>
+    <color name="relationship_card_back">#edf4ff</color>
+    <color name="relationship_zixun">#74ca46</color>
+    <color name="relationship_zixun_back">#f1faec</color>
+    <color name="relationship_xiaochengxu">#692288</color>
+    <color name="relationship_xiaochengxu_back">#B75FDD</color>
+    <color name="relationship_yule">#8C0375</color>
+    <color name="relationship_yule_back">#F22ED1</color>
+    <color name="relationship_haibao">#7E6B03</color>
+    <color name="relationship_haibao_back">#F1D32D</color>
+
+    <color name="relationship_avatar_back">#edf4ff</color>
+
+    <color name="default_color">#4F91FF</color>
+</resources>

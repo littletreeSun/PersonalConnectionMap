@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<paths>-->
+    <!--<root-path-->
+    <!--name="camera_photos"-->
+    <!--path="" />-->
+    <!--</paths>-->
+    <external-path
+        name="images1"
+        path="DCIM/ocr_pdf" />
+    <external-path
+        name="images2"
+        path="DCIM/ocr_img" />
+    <external-path
+        name="images3"
+        path="DCIM/" />
+    <external-path
+        name="images4"
+        path="DCIM" />
+    <external-path
+        name="external_path_zdb"
+        path="zdb/"/>
+    <external-path
+        name="external_path_zdb"
+        path="zdb/"/>
+    <external-files-path
+        name="share_files"
+        path="." />
+    <paths>
+        <files-path
+            name="my_images"
+            path="images/" />
+
+        <files-path
+            name="my_docs"
+            path="docs/" />
+    </paths>
+
+    <paths>
+        <root-path
+            name="camera_photos"
+            path="" />
+    </paths>
+
+    <path>
+        <root-path
+            name="root_path"
+            path="." />
+    </path>
+</resources>
