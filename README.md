@@ -2,5 +2,5 @@
 人物关系图，人物分享数据关系图谱,扩散图谱
 自带点击各头像点击事件，长按事件和缩放
 可根据自己项目更改实体类进行使用
-![设置图](https://github.com/littletreeSun/Resource-Catalog/blob/main/images/Screenshot_20220725_095153_com.littletree.mypersonalconnectionmap.jpg)
+![image设置图](https://github.com/littletreeSun/Resource-Catalog/blob/main/images/Screenshot_20220725_095153_com.littletree.mypersonalconnectionmap.jpg)
 ![示例图](https://github.com/littletreeSun/Resource-Catalog/blob/main/gif/SVID_20220722_105657_1(1)_.gif)
